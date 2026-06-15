@@ -477,3 +477,87 @@ body {
         font-size: 20px;
     }
 }
+$dark: #22253b;
+$card-bg: #eaf3f5;
+$white: #ffffff;
+
+@mixin flex($j: center, $a: center) {
+    display: flex;
+    justify-content: $j;
+    align-items: $a;
+}
+
+%card {
+    background: $card-bg;
+    border-radius: 40px;
+}
+
+.main24 {
+    padding: 90px 0;
+    background: $white;
+    border-radius: 0 0 80px 80px;
+}
+
+.main25,
+.main28 {
+    @include flex(space-between, stretch);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.main28 {
+    margin-bottom: 0;
+}
+
+.main26,
+.main27,
+.main29,
+.main30 {
+    @extend %card;
+}
+
+.main26,
+.main30 {
+    width: 36%;
+    padding: 40px;
+    @include flex(center, center);
+
+    img {
+        width: 100%;
+        max-width: 380px;
+        display: block;
+    }
+}
+
+.main27,
+.main29 {
+    width: 64%;
+    padding: 65px 80px;
+
+    h2 {
+        font-size: 42px;
+        line-height: 1.2;
+        color: $dark;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.6;
+        color: $dark;
+        margin-bottom: 25px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.main29 {
+    width: 64%;
+}
+
+.main30 {
+    width: 36%;
+}

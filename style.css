@@ -448,4 +448,79 @@ body {
 .btn10 span {
   margin-left: 10px;
   font-size: 20px;
+}
+
+.main26,
+.main27,
+.main29,
+.main30 {
+  background: #eaf3f5;
+  border-radius: 40px;
+}
+
+.main24 {
+  padding: 90px 0;
+  background: #ffffff;
+  border-radius: 0 0 80px 80px;
+}
+
+.main25,
+.main28 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.main28 {
+  margin-bottom: 0;
+}
+
+.main26,
+.main30 {
+  width: 36%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main26 img,
+.main30 img {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+}
+
+.main27,
+.main29 {
+  width: 64%;
+  padding: 65px 80px;
+}
+.main27 h2,
+.main29 h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  color: #22253b;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.main27 p,
+.main29 p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #22253b;
+  margin-bottom: 25px;
+}
+.main27 p:last-child,
+.main29 p:last-child {
+  margin-bottom: 0;
+}
+
+.main29 {
+  width: 64%;
+}
+
+.main30 {
+  width: 36%;
 }/*# sourceMappingURL=style.css.map */
