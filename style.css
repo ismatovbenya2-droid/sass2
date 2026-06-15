@@ -748,4 +748,244 @@ body {
 .main48 p {
   color: #8e8e8e;
   font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .main1 {
+    top: 10px;
+  }
+  .main2 {
+    height: auto;
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 25px;
+  }
+  .img1 {
+    width: 75px;
+  }
+  .main3 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main4 {
+    gap: 12px;
+  }
+  .main5 {
+    padding-top: 230px;
+    padding-bottom: 60px;
+    min-height: auto;
+  }
+  .main5::before, .main5::after {
+    display: none;
+  }
+  .main6 {
+    min-height: auto;
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+  }
+  .main7 {
+    max-width: 100%;
+  }
+  .text1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .main8 {
+    width: 100%;
+  }
+  .text2 {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .btn2 {
+    width: 100%;
+    padding: 18px 25px;
+    font-size: 16px;
+  }
+  .main9 {
+    width: 100%;
+  }
+  .main10 {
+    display: none;
+  }
+  .main11 {
+    padding: 60px 0;
+  }
+  .text3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .main12 {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+    border-radius: 30px;
+  }
+  .main13,
+  .main14 {
+    width: 100%;
+  }
+  .main15 {
+    justify-content: center;
+  }
+  .btn3,
+  .btn4,
+  .btn5,
+  .btn6,
+  .btn7,
+  .btn8,
+  .btn9 {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+  .text4 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .main16 {
+    padding: 60px 0;
+  }
+  .text5 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .main17 {
+    gap: 18px;
+  }
+  .main18 {
+    width: 100%;
+    min-height: auto;
+    padding: 35px 20px;
+  }
+  .main19 {
+    padding: 60px 0;
+  }
+  .text6 {
+    font-size: 28px;
+  }
+  .text7 {
+    font-size: 14px;
+  }
+  .main21 {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 25px;
+  }
+  .main22 {
+    width: 100%;
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 20px;
+  }
+  .main22:last-child {
+    border-bottom: none;
+  }
+  .main22 h3 {
+    font-size: 46px;
+  }
+  .main22 h4 {
+    font-size: 20px;
+  }
+  .main23 {
+    flex-direction: column;
+    text-align: center;
+    border-radius: 30px;
+  }
+  .btn10 {
+    width: 100%;
+  }
+  .main24 {
+    padding: 60px 0;
+  }
+  .main25,
+  .main28 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main26,
+  .main27,
+  .main29,
+  .main30 {
+    width: 100%;
+  }
+  .main27,
+  .main29 {
+    padding: 35px 25px;
+  }
+  .main27 h2,
+  .main29 h2 {
+    font-size: 30px;
+  }
+  .main27 p,
+  .main29 p {
+    font-size: 16px;
+  }
+  .main31 {
+    padding: 60px 0;
+  }
+  .text10 {
+    font-size: 30px;
+  }
+  .main32 {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .main33 {
+    width: 100%;
+  }
+  .main34 {
+    overflow-x: auto;
+    padding: 20px 10px;
+  }
+  .main35 {
+    min-width: 750px;
+  }
+  .main35 p {
+    font-size: 15px;
+  }
+  .main38 {
+    flex-direction: column;
+    text-align: center;
+    padding: 35px 25px;
+  }
+  .btn11 {
+    width: 100%;
+  }
+  .main39 {
+    padding: 50px 0 25px;
+  }
+  .main40 {
+    flex-direction: column;
+    gap: 35px;
+  }
+  .main41,
+  .main44,
+  .main45 {
+    width: 100%;
+    text-align: center;
+  }
+  .main42 {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main43 {
+    display: flex;
+    justify-content: center;
+  }
+  .main43 img {
+    width: 180px;
+  }
+  .main48 {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
