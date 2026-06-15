@@ -561,3 +561,150 @@ $white: #ffffff;
 .main30 {
     width: 36%;
 }
+$dark: #22253b;
+$blue: #38bff2;
+$orange: #f15525;
+$light: #eaf3f5;
+$gray: #f3f3f3;
+$white: #ffffff;
+
+@mixin flex($j: center, $a: center) {
+    display: flex;
+    justify-content: $j;
+    align-items: $a;
+}
+
+%white-card {
+    background: $white;
+    border-radius: 30px;
+}
+
+%light-card {
+    background: $light;
+    border-radius: 30px;
+}
+
+.main31 {
+    padding: 90px 0;
+    background: #f9f8ff;
+}
+
+.text10 {
+    text-align: center;
+    font-size: 46px;
+    color: $dark;
+    margin-bottom: 45px;
+    font-weight: 700;
+}
+
+.main32 {
+    @include flex(space-between, center);
+    gap: 40px;
+    margin-bottom: 45px;
+}
+
+.main33 {
+    @include flex(flex-start, center);
+    gap: 25px;
+    width: 33.333%;
+
+    p {
+        font-size: 17px;
+        line-height: 1.45;
+        color: $dark;
+    }
+}
+
+.img8 {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.main34 {
+    @extend %white-card;
+    padding: 35px 38px;
+    margin-bottom: 25px;
+}
+
+.main35 {
+    display: grid;
+    grid-template-columns: 2fr 1.1fr 1.2fr;
+    align-items: center;
+    min-height: 55px;
+    padding: 0 20px;
+    border-radius: 10px;
+
+    &:nth-child(even) {
+        background: $gray;
+    }
+
+    p {
+        font-size: 18px;
+        color: $dark;
+    }
+}
+
+.main36 {
+    background: transparent !important;
+    min-height: 45px;
+
+    p {
+        color: $blue;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+.main37 {
+    background: transparent !important;
+    min-height: 70px;
+    font-weight: 700;
+
+    p {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+.text11 {
+    color: #9a9a9a;
+    font-size: 16px;
+    margin: 0 0 35px 45px;
+}
+
+.main38 {
+    @extend %light-card;
+    padding: 55px 65px;
+    @include flex(space-between, center);
+    gap: 35px;
+
+    p {
+        flex: 1;
+        font-size: 17px;
+        line-height: 1.45;
+        color: $dark;
+    }
+}
+
+.img9 {
+    width: 90px;
+    flex-shrink: 0;
+}
+
+.btn11 {
+    border: none;
+    background: $orange;
+    color: $white;
+    padding: 24px 55px;
+    border-radius: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    flex-shrink: 0;
+
+    span {
+        margin-left: 12px;
+        font-size: 22px;
+    }
+}
